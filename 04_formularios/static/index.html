@@ -22,6 +22,50 @@
             <label>Correo electronico:</label>
             <input type="email" name="correo" placeholder="Escribe tu correo electronico">
             <br><br>
+            <label>Contraseña:</label>
+            <input type="password" name="contrasena" placeholder="Escribe tu contraseña"><!--formato de contraseña-->
+            <br><br>
+            <label>Edad:</label>
+            <input type="number" name="edad" placeholder="Escribe tu edad"><!--admite solo números-->
+            <br><br>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="fecha_nacimiento">
+            <br><br>
+            <label>Género:</label>
+            <select name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br><br>
+            <label>Intereses:</label><br>
+            <input type="checkbox" name="intereses" value="deportes"> Deportes<br>
+            <input type="checkbox" name="intereses" value="musica"> Música<br>
+            <input type="checkbox" name="intereses" value="Películas"> Películas
+            <br><br>
+            <label>Ciudad:</label><br>
+            <select name="ciudad">
+                <option value="ciudad1">Santiago</option>
+                <option value="ciudad2">Valparaíso</option>
+                <option value="ciudad3">Concepción</option>
+                <option value="ciudad4">La Serena</option>
+                <option value="ciudad5">Otros</option>
+            </select>
+            <br><br>
+            <label>Comentarios:</label><br>
+            <textarea name="comentarios" rows="4" cols="30"></textarea>
+            <br><br>
+            <label>Subir archivo:</label>
+            <input type="file" name="archivo">
+            <br><br>
+            <label>Color Favorito:</label>
+            <input type="color" name="color_favorito">
+            <br><br>
+            <label>Nivel de satisfacción:</label>
+            <input type="range" name="satisfaccion" min="1" max="10">
+            <br><br>
+            <input type="submit" value="Enviar"> <!--boton para enviar el formulario-->
+            <input type="reset" value="Limpiar"> <!--boton para limpiar el formulario-->
         </form>
     </main>
 </body>
